@@ -144,7 +144,7 @@ if __name__ == "__main__":
     device = torch.device('cuda:3')
     # 加载网络，图片单通道1，分类为1。
     # net = U_Net_v1(img_ch=35, output_ch=34)
-    net = HTUNet(num_classes=34, 
+    net = HTUnet(num_classes=34, 
                         input_channels=35, 
                         c_list=[8,16,24,32,48,64], 
                         bridge=True,
