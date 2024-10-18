@@ -387,7 +387,7 @@ class Grouped_multi_axis_Hadamard_Product_Attention(nn.Module):
     
     
 
-class HTUNet(nn.Module):
+class HTUnet(nn.Module):
     
     def __init__(self, num_classes=1, input_channels=35, c_list=[8,16,24,32,48,64], bridge=True, gt_ds=True,p1=5, p2=5, p3=3):
         super().__init__()
